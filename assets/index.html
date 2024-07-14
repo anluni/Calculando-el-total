@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Desafio 1 - Calculando</title>
+</head>
+
+<body>
+    <div class="form">
+        <img src="./img/laptop.jpg" alt="Foto Laptop">
+        <p class="description">Notebook Gamer Alienware m15 R7 Ryzen 9 6900H NVIDIA RTX3070 8GB 15.6" FHD 16GB RAM 1TB
+            SSD Windows 11</p>
+        <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad">
+        <input type="text" name="color" id="color" placeholder="Color">
+        <div>
+            <p class="oferta">Precio Oferta Cyber: $ <span id="precio">999990</span></p>
+            <p class="normal">Precio Normal: $ 2149990</p>
+        </div>
+        <button>Calcular Total</button>
+
+    </div>
+
+    <div class="result">
+        <p>Total: $<span id="result-total"></span></p>
+        <p>Cantidad: <span id="result-cantidad"></span></p>
+        <p>Color: <span id="result-color" class="dot"></span></p>
+    </div>
+
+    <script src="./js/style.js"></script>
+</body>
+
+</html>
